@@ -5,24 +5,26 @@ table _Measures
 			COALESCE(SUM(FactBudgetExecution[AllocatedBudget]), 0)
 			
 			```
-		formatString: 0
+		formatString: #,0
 		lineageTag: bd90c528-aaaf-475f-9a87-fbc532b6131f
 
 	measure TotalActualSpend = ```
 			COALESCE(SUM(FactBudgetExecution[ActualSpend]), 0)
 			
 			```
+		formatString: #,0
 		lineageTag: 05e4818d-3cef-4044-9256-8065e56bacd1
 
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
+		annotation PBI_FormatHint = {"isDecimal":true}
 
 	measure BudgetVariance = ```
 			[TotalBudget] - [TotalActualSpend]
 			
 			```
+		formatString: #,0
 		lineageTag: 0de665a2-5867-46ef-a823-70cbff11253c
 
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
+		annotation PBI_FormatHint = {"isDecimal":true}
 
 	measure BudgetBurnRate_Pct = ```
 			
@@ -32,9 +34,8 @@ table _Measures
 			    0
 			)
 			```
+		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: 07935cea-0091-4194-b849-55e02778debe
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	partition _Measures = m
 		mode: import
