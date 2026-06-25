@@ -1,0 +1,21 @@
+AssetID,AssetName,AssetType,Region,Capacity_Units
+AST-001,Processing Hub - Territory Epsilon,Processing Hub,Territory Beta,60000
+AST-002,Transmission Node - Territory Epsilon,Generation Plant,Territory Delta,5000
+AST-003,Storage Facility - Territory Beta,Processing Hub,Territory Epsilon,60000
+AST-004,Transmission Node - Territory Gamma,Distribution Substation,Territory Beta,60000
+AST-005,Transmission Node - Territory Epsilon,Distribution Substation,Territory Beta,5000
+AST-006,Processing Hub - Territory Gamma,Generation Plant,Territory Delta,5000
+AST-007,Storage Facility - Territory Beta,Distribution Substation,Territory Beta,5000
+AST-008,Processing Hub - Territory Beta,Storage Facility,Territory Beta,5000
+AST-009,Processing Hub - Territory Epsilon,Distribution Substation,Territory Delta,45000
+AST-010,Generation Plant - Territory Delta,Processing Hub,Territory Delta,25000
+AST-011,Distribution Substation - Territory Epsilon,Processing Hub,Territory Alpha,25000
+AST-012,Processing Hub - Territory Alpha,Processing Hub,Territory Epsilon,5000
+AST-013,Generation Plant - Territory Gamma,Processing Hub,Territory Epsilon,25000
+AST-014,Transmission Node - Territory Beta,Storage Facility,Territory Beta,25000
+AST-015,Processing Hub - Territory Delta,Transmission Node,Territory Epsilon,5000
+AST-016,Transmission Node - Territory Delta,Generation Plant,Territory Beta,25000
+AST-017,Processing Hub - Territory Alpha,Processing Hub,Territory Alpha,60000
+AST-018,Transmission Node - Territory Epsilon,Distribution Substation,Territory Delta,12000
+AST-019,Transmission Node - Territory Epsilon,Processing Hub,Territory Delta,12000
+AST-020,Generation Plant - Territory Beta,Distribution Substation,Territory Delta,5000

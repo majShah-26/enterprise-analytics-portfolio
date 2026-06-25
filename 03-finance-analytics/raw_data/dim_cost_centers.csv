@@ -1,0 +1,11 @@
+CostCenterID,DepartmentName,Division,PracticeLead
+CC-100,Strategy & Architecture,Technology Architecture,Practice Lead 1
+CC-101,Cloud Engineering,Technology Architecture,Practice Lead 2
+CC-102,Enterprise Intelligence,Technology Architecture,Practice Lead 3
+CC-103,Automation Core,Technology Architecture,Practice Lead 4
+CC-104,Program Management,Technology Architecture,Practice Lead 5
+CC-105,Systems Engineering,Technology Architecture,Practice Lead 6
+CC-106,Cyber Security,Enterprise Operations,Practice Lead 7
+CC-107,Human Resources,Enterprise Operations,Practice Lead 8
+CC-108,Shared Operations,Enterprise Operations,Practice Lead 9
+CC-109,Corporate Finance,Enterprise Operations,Practice Lead 10

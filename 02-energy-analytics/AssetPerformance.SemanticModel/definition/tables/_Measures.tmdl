@@ -1,0 +1,72 @@
+table _Measures
+	lineageTag: be60328a-527d-4bdd-a9db-0cded2e4236f
+
+	measure TotalLostVolume_BBL = ```
+			
+			COALESCE(
+			    SUM(FactDowntime[LostProductionVolume]), 
+			    0
+			)
+			```
+		lineageTag: 51f5741f-733f-4dae-8349-392fa8051d8e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure TotalDowntime_Hrs = ```
+			
+			COALESCE(
+			    SUM(FactDowntime[DowntimeHours]), 
+			    0
+			)
+			```
+		lineageTag: 2b8f8c05-3daa-4bdb-ab8c-d38dfec178c2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure AssetAvailability_Pct = ```
+			
+			VAR TotalDaysInContext = COUNTROWS(DimCalendar)
+			VAR TotalPotentialHours = TotalDaysInContext * 24 * DISTINCTCOUNT(DimAsset[AssetID])
+			VAR ActualDowntime = [TotalDowntime_Hrs]
+			VAR ActiveHours = TotalPotentialHours - ActualDowntime
+			RETURN
+			    DIVIDE(
+			        ActiveHours, 
+			        TotalPotentialHours, 
+			        1
+			    )
+			```
+		lineageTag: 910f6d57-0934-4d1d-b60d-2f40401b1884
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Rolling30D_LostVolume_BBL =
+			
+			CALCULATE(
+			    AVERAGEX(
+			        VALUES(DimCalendar[Date]),
+			        [TotalLostVolume_BBL]
+			    ),
+			    DATESINPERIOD(
+			        DimCalendar[Date],
+			        MAX(DimCalendar[Date]),
+			        -30,
+			        DAY
+			    )
+			)
+		lineageTag: 3b8f17d7-73ec-4c9c-8ca3-330f0c06416e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column1"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_ResultType = Table
+

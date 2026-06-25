@@ -1,0 +1,75 @@
+table FactBudgetExecution
+	lineageTag: 53eddba2-196e-417a-9202-1bdb6e60ee23
+
+	column CostCenterID
+		dataType: string
+		lineageTag: a2658a47-52b8-49c3-addb-0e419f475aa4
+		summarizeBy: none
+		sourceColumn: CostCenterID
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthStarting
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 3268a29d-0a53-4325-885a-a546afd3cffa
+		summarizeBy: none
+		sourceColumn: MonthStarting
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column OPEX_Component
+		dataType: double
+		lineageTag: 42910d1f-e8bd-48eb-a7cb-c78a9ebec0d3
+		summarizeBy: sum
+		sourceColumn: OPEX_Component
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column CAPEX_Component
+		dataType: double
+		lineageTag: 7011446a-1608-4a7c-9f9e-922ef993e22e
+		summarizeBy: sum
+		sourceColumn: CAPEX_Component
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column AllocatedBudget
+		dataType: int64
+		formatString: 0
+		lineageTag: 6fdbc6e7-8767-4b76-996e-bfb37717d1cf
+		summarizeBy: sum
+		sourceColumn: AllocatedBudget
+
+		annotation SummarizationSetBy = Automatic
+
+	column ActualSpend
+		dataType: double
+		lineageTag: b389a395-0b20-487c-97cf-2147cf858e99
+		summarizeBy: sum
+		sourceColumn: ActualSpend
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition FactBudgetExecution = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\wenla\OneDrive\PortfolioProjects\03-finance-analytics\raw_data\fact_budget_execution.csv"), [Delimiter = ",", Columns = 6, QuoteStyle = QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"CostCenterID", type text}, {"MonthStarting", type date}, {"AllocatedBudget", Int64.Type}, {"ActualSpend", type number}, {"OPEX_Component", type number}, {"CAPEX_Component", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

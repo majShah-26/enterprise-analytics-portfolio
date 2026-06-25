@@ -1,0 +1,23 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["DimCostCenters","FactBudgetExecution","_Measures"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table DimCostCenters
+ref table FactBudgetExecution
+ref table DimDate
+ref table _Measures
+ref table DateTableTemplate_15375eda-f73b-49b0-864e-c0a4fa3263fa
+ref table LocalDateTable_c532a070-13ec-4e86-a47c-8684e588d64e
+
+ref cultureInfo en-US
+

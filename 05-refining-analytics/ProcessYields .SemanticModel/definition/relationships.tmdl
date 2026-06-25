@@ -1,0 +1,13 @@
+relationship AutoDetected_538462c6-3eb2-482f-8d82-0a236b3822b2
+	fromColumn: FactProcessingYields.PlantID
+	toColumn: Dim_Plants.PlantID
+
+relationship 748a6ae9-3353-4216-b3e9-d48adcb0e701
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DimDate.Date
+	toColumn: LocalDateTable_22c50bdd-5c90-4377-b166-6451fb478df5.Date
+
+relationship b5bdf07f-3cfc-34d5-c331-ed5981bfd881
+	fromColumn: FactProcessingYields.Date
+	toColumn: DimDate.Date
+

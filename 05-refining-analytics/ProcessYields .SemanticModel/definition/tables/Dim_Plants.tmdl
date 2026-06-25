@@ -1,0 +1,41 @@
+table Dim_Plants
+	lineageTag: ca7f24ce-ea27-440b-a767-2fbd4118b179
+
+	column PlantID
+		dataType: string
+		lineageTag: cb20c454-9bf9-4b97-ac3d-41240dd75a13
+		summarizeBy: none
+		sourceColumn: PlantID
+
+		annotation SummarizationSetBy = Automatic
+
+	column PlantName
+		dataType: string
+		lineageTag: d62465d4-0c6f-4d02-bfcb-f721ee1d970a
+		summarizeBy: none
+		sourceColumn: PlantName
+
+		annotation SummarizationSetBy = Automatic
+
+	column OperationalTier
+		dataType: string
+		lineageTag: f94136bc-abc2-4a46-a8b0-3fb79a09b321
+		summarizeBy: none
+		sourceColumn: OperationalTier
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Plants = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\wenla\OneDrive\PortfolioProjects\05-refining-analytics\raw_data\dim_plants.csv"), [Delimiter = ",", Columns = 3, QuoteStyle = QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"PlantID", type text}, {"PlantName", type text}, {"OperationalTier", type text}})
+				in
+				  #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

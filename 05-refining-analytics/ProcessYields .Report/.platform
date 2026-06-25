@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "ProcessYields "
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "ea5503da-d31b-47e6-9e56-959c8d1fa9a1"
+  }
+}

@@ -1,0 +1,13 @@
+relationship AutoDetected_b555d987-2bf2-4342-83a1-bbc4b8c86008
+	fromColumn: FactDowntime.AssetID
+	toColumn: DimAsset.AssetID
+
+relationship 6c686189-c623-4fb1-8929-acf8c6ce8e47
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DimCalendar.Date
+	toColumn: LocalDateTable_ec541d93-2dcd-4cdf-894d-8ba07e1494fe.Date
+
+relationship df988d9d-f629-4507-973a-0308f1428daa
+	fromColumn: FactDowntime.Date
+	toColumn: DimCalendar.Date
+

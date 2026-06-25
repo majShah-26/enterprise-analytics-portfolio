@@ -1,0 +1,73 @@
+table FactProjectEVM
+	lineageTag: 84a1cee4-3fbf-4d44-ad21-ecb5facb5f58
+
+	column ProjectID
+		dataType: string
+		lineageTag: f81918c3-8aa5-45d3-8f19-48531e815931
+		summarizeBy: none
+		sourceColumn: ProjectID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e1c55c9d-c7ed-4fe5-b8ad-8d7c3e3859a1
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column PlannedValue
+		dataType: int64
+		formatString: 0
+		lineageTag: 4269d746-0e5a-4675-9cda-fb4425b04953
+		summarizeBy: sum
+		sourceColumn: PlannedValue
+
+		annotation SummarizationSetBy = Automatic
+
+	column EarnedValue
+		dataType: double
+		lineageTag: b2bfb92c-27fb-41d0-9090-d83cca64ca7b
+		summarizeBy: sum
+		sourceColumn: EarnedValue
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ActualCost
+		dataType: double
+		lineageTag: 92cb3d5a-962d-41d8-b6c6-e2241ff0a5b1
+		summarizeBy: sum
+		sourceColumn: ActualCost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ContractorID
+		dataType: string
+		lineageTag: eac6cb5e-1eb8-4e49-9847-e1b8a29d0c17
+		summarizeBy: none
+		sourceColumn: ContractorID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FactProjectEVM = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\wenla\OneDrive\PortfolioProjects\04-construction-analytics\raw_data\raw_construction_evm.csv"), [Delimiter = ",", Columns = 6, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"ProjectID", type text}, {"Date", type date}, {"PlannedValue", Int64.Type}, {"EarnedValue", type number}, {"ActualCost", type number}, {"ContractorID", type text}})
+				in
+				  #"Changed column type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

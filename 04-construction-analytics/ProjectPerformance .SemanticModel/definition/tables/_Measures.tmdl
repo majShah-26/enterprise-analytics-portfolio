@@ -1,0 +1,81 @@
+table _Measures
+	lineageTag: 9a36d26c-37cc-4c08-8859-f47af9f61d97
+
+	measure PlannedValue = ```
+			COALESCE(SUM(FactProjectEVM[PlannedValue]), 0)
+			
+			```
+		formatString: 0
+		lineageTag: b23ae88c-e098-4ba3-a1c8-1285e2ab9c5c
+
+	measure EarnedValue = ```
+			COALESCE(SUM(FactProjectEVM[EarnedValue]), 0)
+			
+			```
+		lineageTag: 6ce5bb0a-4b09-4345-89d7-1e1222d09190
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure ActualCost = ```
+			COALESCE(SUM(FactProjectEVM[ActualCost]), 0)
+			
+			```
+		lineageTag: a92e5445-c6d2-44a4-9c33-4f13d5bb9bd5
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure CostVariance = ```
+			[EarnedValue] - [ActualCost]
+			
+			```
+		lineageTag: 416c399a-1aeb-4140-8c81-a7c61759d678
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure ScheduleVariance = ```
+			[EarnedValue] - [PlannedValue]
+			
+			```
+		lineageTag: d1459d0d-3096-4ef5-ad5c-c909dc71ed13
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure CostPerformanceIndex = ```
+			
+			DIVIDE(
+			    [EarnedValue], 
+			    [ActualCost], 
+			    1
+			)
+			
+			```
+		lineageTag: 5422880b-c781-4da8-b0cd-044bbb599d70
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure SchedulePerformanceIndex = ```
+			
+			DIVIDE(
+			    [EarnedValue], 
+			    [PlannedValue], 
+			    1
+			)
+			
+			```
+		lineageTag: b87d421d-c157-439b-83ba-d47ea418d642
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				  Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Removed Columns" = Table.RemoveColumns(Source,{"Column1"})
+				in
+				  #"Removed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

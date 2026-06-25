@@ -1,0 +1,7 @@
+role 'Ghawar Field Executive'
+	modelPermission: read
+
+	tablePermission DimAsset = [Region] == "Ghawar Field"
+
+	annotation PBI_Id = 2bbd39d56d1d4815a0a917abc9d55735
+

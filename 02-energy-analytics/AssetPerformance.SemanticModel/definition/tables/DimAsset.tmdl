@@ -1,0 +1,58 @@
+table DimAsset
+	lineageTag: 40d99b85-5b86-4fb9-b6f3-c30b02e44970
+
+	column AssetID
+		dataType: string
+		lineageTag: 2b8d1e54-fd50-40c9-bd65-f4e487958c8a
+		summarizeBy: none
+		sourceColumn: AssetID
+
+		annotation SummarizationSetBy = Automatic
+
+	column AssetName
+		dataType: string
+		lineageTag: b5cdbc06-d6bf-4a93-83df-c18e20223d75
+		summarizeBy: none
+		sourceColumn: AssetName
+
+		annotation SummarizationSetBy = Automatic
+
+	column AssetType
+		dataType: string
+		lineageTag: 94b3e039-23d8-4541-875c-e4ffd7db3d13
+		summarizeBy: none
+		sourceColumn: AssetType
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: 92e31859-6921-4c99-a1de-9c342ea58eb0
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Capacity_BPD
+		dataType: int64
+		formatString: 0
+		lineageTag: fe89ceb4-f0f9-4b4b-97e2-03dbdfb94b95
+		summarizeBy: none
+		sourceColumn: Capacity_BPD
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimAsset = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\wenla\OneDrive\PortfolioProjects\02-energy-analytics\raw_data\dim_assets.csv"),[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"AssetID", type text}, {"AssetName", type text}, {"AssetType", type text}, {"Region", type text}, {"Capacity_BPD", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

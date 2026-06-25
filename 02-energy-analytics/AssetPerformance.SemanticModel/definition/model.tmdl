@@ -1,0 +1,26 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["DimAsset","FactDowntime","_Measures"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table DimAsset
+ref table FactDowntime
+ref table DateTableTemplate_dacd0bb6-b4c4-4248-9c53-aaaf7181dc7e
+ref table DimCalendar
+ref table LocalDateTable_ec541d93-2dcd-4cdf-894d-8ba07e1494fe
+ref table _Measures
+
+ref role 'Eastern Province Executive'
+ref role 'Ghawar Field Executive'
+
+ref cultureInfo en-US
+

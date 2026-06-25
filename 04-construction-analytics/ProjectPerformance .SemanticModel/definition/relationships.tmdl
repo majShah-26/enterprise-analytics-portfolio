@@ -1,0 +1,13 @@
+relationship AutoDetected_eb3701ae-692d-48b1-a4cd-1c7ecc83905d
+	fromColumn: FactProjectEVM.ProjectID
+	toColumn: DimProjects.ProjectID
+
+relationship 259d0f05-2dbb-495f-a7c7-e2c191fb6c39
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DimDate.Date
+	toColumn: LocalDateTable_2e2f9fcd-8ff1-4959-b730-4198159c39ad.Date
+
+relationship 6ab7d369-aad9-2342-df0c-89a548c7ec61
+	fromColumn: FactProjectEVM.Date
+	toColumn: DimDate.Date
+

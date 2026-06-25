@@ -1,0 +1,60 @@
+table _Measures
+	lineageTag: d431dc67-2207-441b-813c-4dd9f3a51505
+
+	measure TotalGrossInput = ```
+			COALESCE(SUM(FactProcessingYields[GrossInput_BBL]), 0)
+			
+			```
+		lineageTag: 0dddb5e9-31a9-4e31-bfe7-88e3f2a67aad
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure TotalNetOutput = ```
+			COALESCE(SUM(FactProcessingYields[NetOutput_BBL]), 0)
+			
+			```
+		lineageTag: 398fadb4-5aca-4f44-99d2-2cbc29d07e03
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure ProcessYield_Pct = ```
+			
+			DIVIDE(
+			    [TotalNetOutput], 
+			    [TotalGrossInput], 
+			    0
+			)
+			```
+		lineageTag: 8c61be86-74a7-4002-9cad-ac6a5f63c32e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure AvgOperationalEfficiency = ```
+			AVERAGE(FactProcessingYields[OperationalEfficiency_Pct])
+			
+			```
+		lineageTag: 2ef6f358-8f17-4b63-bfc6-5731df5477bc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure AverageEmission_PPM = ```
+			AVERAGE(FactProcessingYields[Emission_PPM])
+			
+			```
+		lineageTag: 48251805-dd28-445e-8696-845889be9f3d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition _Measures = m
+		mode: import
+		source =
+				let
+				  Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Removed Columns" = Table.RemoveColumns(Source,{"Column1"})
+				in
+				  #"Removed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

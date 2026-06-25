@@ -1,0 +1,72 @@
+table FactDowntime
+	lineageTag: bd53ce30-8b2f-4877-94b9-d7b4f75c4b9b
+
+	column AssetID
+		dataType: string
+		lineageTag: 96912ca8-4664-4eb1-9241-1cf94ae40229
+		summarizeBy: none
+		sourceColumn: AssetID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: dae68786-2b11-4dba-9fda-1026fc22bd40
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column FailureType
+		dataType: string
+		lineageTag: 30edfc6b-1509-4923-a374-06d4206c18ca
+		summarizeBy: none
+		sourceColumn: FailureType
+
+		annotation SummarizationSetBy = Automatic
+
+	column DowntimeHours
+		dataType: double
+		lineageTag: 4848e8a3-887a-43c7-beff-c97e02609545
+		summarizeBy: sum
+		sourceColumn: DowntimeHours
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column LostProductionVolume
+		dataType: double
+		lineageTag: 5653c108-5236-49b9-822e-5ebfefe20a73
+		summarizeBy: sum
+		sourceColumn: LostProductionVolume
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column MaintenanceStatus
+		dataType: string
+		lineageTag: cdfad6c1-048d-472b-b280-ffe5bced9450
+		summarizeBy: none
+		sourceColumn: MaintenanceStatus
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FactDowntime = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\wenla\OneDrive\PortfolioProjects\02-energy-analytics\raw_data\raw_downtime_events.csv"),[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"AssetID", type text}, {"Date", type date}, {"FailureType", type text}, {"DowntimeHours", type number}, {"LostProductionVolume", type number}, {"MaintenanceStatus", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

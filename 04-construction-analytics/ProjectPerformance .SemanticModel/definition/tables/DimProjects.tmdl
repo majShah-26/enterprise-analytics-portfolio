@@ -1,0 +1,49 @@
+table DimProjects
+	lineageTag: dca739f7-28f3-42b2-9d6a-5924372b23f1
+
+	column ProjectID
+		dataType: string
+		lineageTag: e5b9ee58-4226-4dfe-b301-4da486567646
+		summarizeBy: none
+		sourceColumn: ProjectID
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProjectName
+		dataType: string
+		lineageTag: 47053b12-47c9-4ae7-b72d-950fc4427d64
+		summarizeBy: none
+		sourceColumn: ProjectName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProgramTrack
+		dataType: string
+		lineageTag: a306643f-4ad7-4ba1-866f-a05f85bb03a7
+		summarizeBy: none
+		sourceColumn: ProgramTrack
+
+		annotation SummarizationSetBy = Automatic
+
+	column RiskClassification
+		dataType: string
+		lineageTag: ea796b1c-6300-407a-996e-a2420f300ed2
+		summarizeBy: none
+		sourceColumn: RiskClassification
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimProjects = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\wenla\OneDrive\PortfolioProjects\04-construction-analytics\raw_data\dim_projects.csv"), [Delimiter = ",", Columns = 4, QuoteStyle = QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"ProjectID", type text}, {"ProjectName", type text}, {"ProgramTrack", type text}, {"RiskClassification", type text}})
+				in
+				  #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

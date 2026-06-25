@@ -1,0 +1,7 @@
+role 'Eastern Province Executive'
+	modelPermission: read
+
+	tablePermission DimAsset = [Region] == "Eastern Province"
+
+	annotation PBI_Id = 17eb6cb55ec9478282318aa440687a35
+

@@ -1,0 +1,76 @@
+table FactProcessingYields
+	lineageTag: 40b35b35-c08b-4f29-9ae9-9291cfe6d4f5
+
+	column PlantID
+		dataType: string
+		lineageTag: 4450f207-a1f1-46a1-b275-dabbd50409cd
+		summarizeBy: none
+		sourceColumn: PlantID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: dateTime
+		formatString: Short Date
+		lineageTag: 721d141a-c9d1-438c-af8b-368e84bdec29
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column GrossInput_BBL
+		dataType: double
+		lineageTag: 5023d5f5-a239-4a90-9511-3bbcd85a1582
+		summarizeBy: sum
+		sourceColumn: GrossInput_BBL
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column NetOutput_BBL
+		dataType: double
+		lineageTag: 1f6b5950-73da-483c-9473-5c89b0aef23f
+		summarizeBy: sum
+		sourceColumn: NetOutput_BBL
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Emission_PPM
+		dataType: double
+		lineageTag: f4d5efe5-f20e-42b8-aaae-df856c8deae0
+		summarizeBy: sum
+		sourceColumn: Emission_PPM
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column OperationalEfficiency_Pct
+		dataType: double
+		lineageTag: 8742115b-666f-47e1-bbe1-31c9e4c3e7e7
+		summarizeBy: sum
+		sourceColumn: OperationalEfficiency_Pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition FactProcessingYields = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\wenla\OneDrive\PortfolioProjects\05-refining-analytics\raw_data\raw_refining_yields.csv"), [Delimiter = ",", Columns = 6, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"PlantID", type text}, {"Date", type date}, {"GrossInput_BBL", type number}, {"NetOutput_BBL", type number}, {"Emission_PPM", type number}, {"OperationalEfficiency_Pct", type number}})
+				in
+				  #"Changed column type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

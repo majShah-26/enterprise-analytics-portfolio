@@ -1,0 +1,74 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 163,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 554,
+            "y": 0
+          },
+          "nodeIndex": "DimProjects",
+          "nodeLineageTag": "dca739f7-28f3-42b2-9d6a-5924372b23f1",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 288,
+            "y": 182
+          },
+          "nodeIndex": "FactProjectEVM",
+          "nodeLineageTag": "84a1cee4-3fbf-4d44-ad21-ecb5facb5f58",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "DimDate",
+          "nodeLineageTag": "945f650b-eb10-4386-a577-48d490b6a245",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 838,
+            "y": 151
+          },
+          "nodeIndex": "_Measures",
+          "nodeLineageTag": "9a36d26c-37cc-4c08-8859-f47af9f61d97",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

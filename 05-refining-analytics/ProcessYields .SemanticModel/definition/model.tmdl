@@ -1,0 +1,23 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Dim_Plants","FactProcessingYields","_Measures"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Dim_Plants
+ref table FactProcessingYields
+ref table DateTableTemplate_9e822a01-f93b-4c73-a786-b9820bf25a87
+ref table DimDate
+ref table LocalDateTable_22c50bdd-5c90-4377-b166-6451fb478df5
+ref table _Measures
+
+ref cultureInfo en-US
+

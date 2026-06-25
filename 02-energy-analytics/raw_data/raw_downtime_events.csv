@@ -1,0 +1,684 @@
+AssetID,Date,FailureType,DowntimeHours,LostProductionVolume,MaintenanceStatus
+AST-004,2024-01-01,Scheduled Overhaul,30.64,72336.9,Resolved
+AST-009,2024-01-02,Integrity Variance,10.99,16919.77,Resolved
+AST-001,2024-01-02,Integrity Variance,31.86,68886.82,Resolved
+AST-020,2024-01-06,Electrical Trip,35.0,7236.9,Pending Final Sign-Off
+AST-002,2024-01-06,Mechanical Fault,11.18,1996.02,Pending Final Sign-Off
+AST-014,2024-01-07,Mechanical Fault,14.66,14710.19,Resolved
+AST-009,2024-01-07,Control System Alert,11.89,18666.64,Pending Final Sign-Off
+AST-012,2024-01-08,Integrity Variance,31.65,5615.16,Resolved
+AST-018,2024-01-09,Mechanical Fault,32.02,15532.67,Resolved
+AST-006,2024-01-09,Mechanical Fault,24.25,4628.4,Pending Final Sign-Off
+AST-006,2024-01-10,Minor Operational Deviation,3.83,697.01,Pending Final Sign-Off
+AST-019,2024-01-10,Control System Alert,9.39,4309.89,Pending Final Sign-Off
+AST-011,2024-01-11,Control System Alert,13.64,11410.59,Resolved
+AST-018,2024-01-12,Mechanical Fault,31.65,15004.53,Resolved
+AST-002,2024-01-13,Scheduled Overhaul,13.83,2359.16,Resolved
+AST-015,2024-01-13,Electrical Trip,6.0,1245.46,Resolved
+AST-020,2024-01-16,Mechanical Fault,18.83,3391.72,Pending Final Sign-Off
+AST-002,2024-01-16,Electrical Trip,15.89,3140.95,Resolved
+AST-010,2024-01-19,Mechanical Fault,20.59,17838.86,Resolved
+AST-017,2024-01-19,Mechanical Fault,4.62,9346.27,Resolved
+AST-013,2024-01-20,Control System Alert,33.64,31544.79,Resolved
+AST-008,2024-01-20,Electrical Trip,6.28,1065.13,Resolved
+AST-006,2024-01-21,Control System Alert,8.12,1480.97,Pending Final Sign-Off
+AST-010,2024-01-21,Electrical Trip,22.45,20282.43,Resolved
+AST-017,2024-01-22,Scheduled Overhaul,20.68,47315.06,Resolved
+AST-003,2024-01-22,Control System Alert,9.38,21482.75,Resolved
+AST-002,2024-01-23,Integrity Variance,34.47,6717.01,Pending Final Sign-Off
+AST-008,2024-01-24,Integrity Variance,12.96,2223.22,Resolved
+AST-001,2024-01-24,Control System Alert,27.53,63569.77,Resolved
+AST-010,2024-01-26,Minor Operational Deviation,3.46,3443.53,Resolved
+AST-016,2024-01-26,Scheduled Overhaul,25.53,22597.9,Pending Final Sign-Off
+AST-016,2024-01-27,Control System Alert,35.22,33429.69,Resolved
+AST-010,2024-01-28,Minor Operational Deviation,2.55,2334.59,Resolved
+AST-012,2024-01-28,Electrical Trip,10.35,1806.13,Resolved
+AST-008,2024-02-02,Mechanical Fault,20.08,3484.58,Resolved
+AST-016,2024-02-03,Control System Alert,32.92,31446.48,Resolved
+AST-014,2024-02-03,Control System Alert,27.38,24971.99,Resolved
+AST-012,2024-02-08,Electrical Trip,15.43,3076.14,Pending Final Sign-Off
+AST-004,2024-02-08,Integrity Variance,8.06,16669.58,Resolved
+AST-011,2024-02-10,Minor Operational Deviation,2.85,2402.23,Resolved
+AST-013,2024-02-10,Scheduled Overhaul,17.99,16223.8,Pending Final Sign-Off
+AST-018,2024-02-17,Mechanical Fault,18.37,8616.26,Resolved
+AST-007,2024-02-17,Scheduled Overhaul,28.88,5568.91,Pending Final Sign-Off
+AST-011,2024-02-20,Scheduled Overhaul,24.89,25120.44,Pending Final Sign-Off
+AST-001,2024-02-20,Minor Operational Deviation,1.58,3845.1,Resolved
+AST-015,2024-02-21,Mechanical Fault,21.24,4192.09,Pending Final Sign-Off
+AST-015,2024-02-24,Scheduled Overhaul,6.65,1356.81,Pending Final Sign-Off
+AST-012,2024-02-24,Minor Operational Deviation,1.15,225.06,Pending Final Sign-Off
+AST-005,2024-02-25,Integrity Variance,34.86,6842.66,Resolved
+AST-012,2024-02-25,Mechanical Fault,26.64,5028.12,Resolved
+AST-017,2024-02-26,Mechanical Fault,9.54,22330.77,Resolved
+AST-015,2024-02-26,Scheduled Overhaul,21.65,4033.73,Resolved
+AST-010,2024-02-28,Control System Alert,6.31,5474.27,Pending Final Sign-Off
+AST-016,2024-02-28,Integrity Variance,24.11,22718.98,Resolved
+AST-015,2024-02-29,Scheduled Overhaul,8.63,1633.53,Pending Final Sign-Off
+AST-018,2024-03-01,Mechanical Fault,27.57,13445.24,Resolved
+AST-013,2024-03-01,Integrity Variance,29.65,25391.71,Resolved
+AST-001,2024-03-04,Scheduled Overhaul,14.73,32862.67,Resolved
+AST-009,2024-03-05,Minor Operational Deviation,2.95,4510.54,Resolved
+AST-006,2024-03-05,Mechanical Fault,33.67,6910.16,Resolved
+AST-013,2024-03-09,Electrical Trip,12.8,11591.88,Pending Final Sign-Off
+AST-003,2024-03-10,Control System Alert,15.22,31089.51,Resolved
+AST-020,2024-03-14,Electrical Trip,31.09,6407.28,Resolved
+AST-009,2024-03-14,Mechanical Fault,32.36,54930.03,Pending Final Sign-Off
+AST-004,2024-03-15,Scheduled Overhaul,8.96,18365.5,Resolved
+AST-002,2024-03-15,Electrical Trip,5.51,1011.63,Pending Final Sign-Off
+AST-009,2024-03-16,Control System Alert,27.97,45759.88,Pending Final Sign-Off
+AST-006,2024-03-17,Control System Alert,32.47,6346.83,Pending Final Sign-Off
+AST-018,2024-03-17,Electrical Trip,29.7,13453.1,Resolved
+AST-013,2024-03-19,Control System Alert,34.53,30101.32,Pending Final Sign-Off
+AST-018,2024-03-24,Electrical Trip,18.12,8329.48,Resolved
+AST-016,2024-03-25,Minor Operational Deviation,0.69,589.82,Resolved
+AST-013,2024-03-27,Control System Alert,8.35,8676.46,Resolved
+AST-001,2024-03-29,Scheduled Overhaul,23.38,54360.46,Resolved
+AST-016,2024-03-31,Scheduled Overhaul,7.08,6466.35,Pending Final Sign-Off
+AST-011,2024-03-31,Mechanical Fault,35.93,32566.89,Resolved
+AST-011,2024-04-02,Mechanical Fault,35.56,32802.42,Resolved
+AST-020,2024-04-02,Electrical Trip,24.63,4328.98,Resolved
+AST-015,2024-04-03,Electrical Trip,8.69,1512.25,Resolved
+AST-019,2024-04-05,Control System Alert,16.95,7835.88,Pending Final Sign-Off
+AST-007,2024-04-05,Minor Operational Deviation,1.74,354.88,Resolved
+AST-013,2024-04-07,Minor Operational Deviation,3.38,2971.71,Resolved
+AST-004,2024-04-08,Mechanical Fault,28.81,67105.0,Pending Final Sign-Off
+AST-017,2024-04-09,Integrity Variance,26.89,55941.42,Resolved
+AST-020,2024-04-10,Integrity Variance,15.84,3194.48,Pending Final Sign-Off
+AST-009,2024-04-11,Scheduled Overhaul,24.5,40847.24,Pending Final Sign-Off
+AST-013,2024-04-12,Control System Alert,30.82,29067.27,Resolved
+AST-008,2024-04-12,Integrity Variance,11.09,2236.46,Resolved
+AST-007,2024-04-14,Electrical Trip,31.32,6152.98,Pending Final Sign-Off
+AST-018,2024-04-14,Integrity Variance,17.24,7832.53,Resolved
+AST-014,2024-04-18,Control System Alert,8.51,7376.8,Resolved
+AST-002,2024-04-18,Control System Alert,21.45,3962.21,Resolved
+AST-005,2024-04-22,Mechanical Fault,17.62,3091.1,Resolved
+AST-015,2024-04-23,Minor Operational Deviation,1.96,381.41,Pending Final Sign-Off
+AST-012,2024-04-23,Mechanical Fault,4.91,1001.69,Resolved
+AST-005,2024-04-24,Scheduled Overhaul,19.19,3783.3,Resolved
+AST-016,2024-04-28,Scheduled Overhaul,23.59,20639.0,Resolved
+AST-012,2024-04-28,Minor Operational Deviation,3.06,513.91,Resolved
+AST-010,2024-04-29,Electrical Trip,32.47,29911.1,Pending Final Sign-Off
+AST-016,2024-04-30,Minor Operational Deviation,2.95,2727.01,Resolved
+AST-009,2024-04-30,Mechanical Fault,31.41,52360.14,Resolved
+AST-009,2024-05-02,Scheduled Overhaul,15.8,25173.63,Resolved
+AST-003,2024-05-06,Control System Alert,23.22,49048.78,Resolved
+AST-001,2024-05-09,Control System Alert,26.52,55193.18,Resolved
+AST-003,2024-05-09,Control System Alert,26.44,54944.49,Pending Final Sign-Off
+AST-005,2024-05-11,Mechanical Fault,29.85,5804.55,Resolved
+AST-019,2024-05-14,Scheduled Overhaul,32.5,15853.15,Resolved
+AST-006,2024-05-15,Electrical Trip,21.92,4263.63,Resolved
+AST-019,2024-05-15,Electrical Trip,16.95,7423.74,Resolved
+AST-009,2024-05-16,Minor Operational Deviation,0.77,1341.96,Pending Final Sign-Off
+AST-012,2024-05-18,Integrity Variance,19.05,3272.81,Resolved
+AST-016,2024-05-19,Mechanical Fault,29.58,30098.92,Resolved
+AST-014,2024-05-21,Control System Alert,5.81,5354.82,Pending Final Sign-Off
+AST-015,2024-05-21,Mechanical Fault,8.85,1795.54,Pending Final Sign-Off
+AST-001,2024-05-22,Scheduled Overhaul,16.33,38575.68,Pending Final Sign-Off
+AST-004,2024-05-22,Integrity Variance,12.61,30381.95,Resolved
+AST-010,2024-05-24,Control System Alert,28.91,25499.3,Resolved
+AST-005,2024-05-25,Electrical Trip,23.04,4564.64,Resolved
+AST-011,2024-05-26,Minor Operational Deviation,3.8,3370.16,Pending Final Sign-Off
+AST-019,2024-05-27,Electrical Trip,29.8,12753.52,Resolved
+AST-014,2024-05-28,Scheduled Overhaul,29.57,26628.57,Resolved
+AST-020,2024-05-31,Control System Alert,18.47,3257.3,Resolved
+AST-012,2024-05-31,Control System Alert,33.74,6854.99,Pending Final Sign-Off
+AST-004,2024-06-01,Integrity Variance,4.09,9595.47,Resolved
+AST-009,2024-06-02,Control System Alert,15.2,27516.97,Resolved
+AST-003,2024-06-03,Integrity Variance,17.82,36617.75,Pending Final Sign-Off
+AST-019,2024-06-03,Control System Alert,16.63,8056.17,Resolved
+AST-015,2024-06-05,Minor Operational Deviation,3.21,572.37,Resolved
+AST-020,2024-06-05,Minor Operational Deviation,1.86,379.89,Resolved
+AST-020,2024-06-06,Minor Operational Deviation,3.06,519.09,Resolved
+AST-001,2024-06-07,Mechanical Fault,18.77,45976.18,Resolved
+AST-017,2024-06-11,Mechanical Fault,4.43,10185.75,Resolved
+AST-001,2024-06-11,Electrical Trip,13.85,31509.39,Resolved
+AST-012,2024-06-14,Integrity Variance,19.85,4122.74,Resolved
+AST-016,2024-06-14,Control System Alert,26.34,22542.34,Pending Final Sign-Off
+AST-002,2024-06-16,Mechanical Fault,6.21,1179.39,Resolved
+AST-006,2024-06-17,Mechanical Fault,27.52,4627.16,Resolved
+AST-019,2024-06-17,Mechanical Fault,7.69,3812.76,Pending Final Sign-Off
+AST-016,2024-06-18,Minor Operational Deviation,1.53,1328.19,Resolved
+AST-019,2024-06-20,Control System Alert,23.1,9584.19,Resolved
+AST-010,2024-06-21,Mechanical Fault,33.63,32526.97,Resolved
+AST-013,2024-06-22,Minor Operational Deviation,1.36,1368.98,Resolved
+AST-008,2024-06-22,Scheduled Overhaul,25.27,5190.48,Resolved
+AST-012,2024-06-24,Integrity Variance,27.68,4796.61,Resolved
+AST-008,2024-06-24,Integrity Variance,27.17,5272.06,Resolved
+AST-014,2024-06-30,Electrical Trip,27.9,23752.34,Pending Final Sign-Off
+AST-015,2024-06-30,Control System Alert,34.7,6593.24,Resolved
+AST-002,2024-07-01,Electrical Trip,5.87,1033.44,Resolved
+AST-009,2024-07-01,Mechanical Fault,30.7,52511.08,Resolved
+AST-008,2024-07-03,Integrity Variance,31.1,5779.63,Pending Final Sign-Off
+AST-019,2024-07-04,Integrity Variance,34.11,15554.78,Resolved
+AST-001,2024-07-04,Scheduled Overhaul,20.31,46230.78,Resolved
+AST-006,2024-07-06,Integrity Variance,32.34,6090.96,Resolved
+AST-012,2024-07-07,Mechanical Fault,34.86,7054.61,Pending Final Sign-Off
+AST-018,2024-07-08,Minor Operational Deviation,3.32,1570.86,Resolved
+AST-008,2024-07-08,Electrical Trip,12.46,2230.59,Resolved
+AST-013,2024-07-09,Electrical Trip,32.64,32229.76,Resolved
+AST-007,2024-07-09,Mechanical Fault,22.29,4119.48,Resolved
+AST-005,2024-07-10,Control System Alert,8.15,1480.71,Pending Final Sign-Off
+AST-010,2024-07-10,Integrity Variance,27.59,25338.58,Resolved
+AST-014,2024-07-11,Scheduled Overhaul,15.15,15157.43,Resolved
+AST-020,2024-07-13,Mechanical Fault,19.69,3360.87,Resolved
+AST-008,2024-07-13,Scheduled Overhaul,17.14,3071.82,Resolved
+AST-011,2024-07-16,Integrity Variance,9.46,8317.36,Resolved
+AST-020,2024-07-16,Mechanical Fault,26.68,5030.56,Pending Final Sign-Off
+AST-018,2024-07-17,Integrity Variance,23.21,10853.99,Resolved
+AST-007,2024-07-17,Integrity Variance,28.43,5888.29,Resolved
+AST-011,2024-07-19,Scheduled Overhaul,17.61,15394.43,Resolved
+AST-019,2024-07-20,Mechanical Fault,10.36,4990.08,Resolved
+AST-018,2024-07-21,Integrity Variance,11.03,5204.43,Resolved
+AST-008,2024-07-22,Mechanical Fault,14.85,2673.67,Pending Final Sign-Off
+AST-005,2024-07-23,Electrical Trip,32.54,5513.42,Resolved
+AST-019,2024-07-24,Mechanical Fault,14.84,6051.18,Resolved
+AST-016,2024-07-24,Integrity Variance,31.09,29731.66,Resolved
+AST-012,2024-07-26,Scheduled Overhaul,27.55,5678.34,Resolved
+AST-013,2024-07-26,Scheduled Overhaul,18.86,17205.47,Pending Final Sign-Off
+AST-009,2024-07-28,Scheduled Overhaul,34.72,57082.37,Resolved
+AST-008,2024-08-02,Minor Operational Deviation,1.6,331.38,Resolved
+AST-015,2024-08-03,Scheduled Overhaul,24.55,4332.09,Pending Final Sign-Off
+AST-009,2024-08-04,Control System Alert,5.75,10463.33,Resolved
+AST-003,2024-08-06,Integrity Variance,34.19,77148.07,Resolved
+AST-020,2024-08-07,Control System Alert,27.64,5267.18,Pending Final Sign-Off
+AST-015,2024-08-07,Integrity Variance,7.62,1304.69,Resolved
+AST-012,2024-08-08,Scheduled Overhaul,13.23,2648.45,Resolved
+AST-011,2024-08-09,Integrity Variance,23.88,23711.43,Pending Final Sign-Off
+AST-020,2024-08-10,Electrical Trip,34.41,6484.24,Resolved
+AST-001,2024-08-10,Integrity Variance,18.27,43797.9,Resolved
+AST-004,2024-08-12,Mechanical Fault,21.92,47761.64,Resolved
+AST-012,2024-08-14,Electrical Trip,26.08,4782.9,Resolved
+AST-003,2024-08-15,Scheduled Overhaul,26.8,57838.02,Resolved
+AST-012,2024-08-18,Control System Alert,25.49,4252.97,Resolved
+AST-019,2024-08-18,Integrity Variance,31.58,13209.31,Pending Final Sign-Off
+AST-011,2024-08-19,Integrity Variance,7.1,6733.27,Pending Final Sign-Off
+AST-017,2024-08-20,Minor Operational Deviation,2.35,5501.58,Resolved
+AST-009,2024-08-22,Minor Operational Deviation,1.62,2877.24,Resolved
+AST-019,2024-08-22,Control System Alert,19.35,8891.58,Pending Final Sign-Off
+AST-007,2024-08-23,Mechanical Fault,15.96,2880.85,Resolved
+AST-004,2024-08-23,Mechanical Fault,26.74,56465.03,Resolved
+AST-002,2024-08-24,Integrity Variance,8.6,1521.7,Resolved
+AST-012,2024-08-24,Electrical Trip,27.03,5038.63,Resolved
+AST-004,2024-08-25,Integrity Variance,10.31,25680.42,Pending Final Sign-Off
+AST-016,2024-08-27,Control System Alert,34.51,32566.37,Resolved
+AST-009,2024-08-28,Integrity Variance,23.9,36825.96,Pending Final Sign-Off
+AST-009,2024-08-29,Integrity Variance,6.24,10475.95,Pending Final Sign-Off
+AST-020,2024-08-29,Mechanical Fault,8.74,1623.54,Pending Final Sign-Off
+AST-007,2024-08-30,Minor Operational Deviation,1.54,287.52,Resolved
+AST-013,2024-08-30,Minor Operational Deviation,0.52,530.98,Resolved
+AST-008,2024-09-01,Mechanical Fault,15.25,3080.04,Resolved
+AST-018,2024-09-02,Electrical Trip,21.09,9525.72,Pending Final Sign-Off
+AST-014,2024-09-02,Electrical Trip,10.53,9549.5,Resolved
+AST-002,2024-09-03,Electrical Trip,26.3,5231.41,Pending Final Sign-Off
+AST-012,2024-09-03,Control System Alert,18.81,3498.11,Pending Final Sign-Off
+AST-020,2024-09-04,Control System Alert,24.04,4749.8,Resolved
+AST-017,2024-09-05,Mechanical Fault,25.68,53508.41,Resolved
+AST-002,2024-09-05,Mechanical Fault,34.3,5777.3,Resolved
+AST-019,2024-09-06,Mechanical Fault,26.38,12825.14,Resolved
+AST-010,2024-09-06,Control System Alert,29.15,25477.35,Resolved
+AST-005,2024-09-08,Mechanical Fault,4.92,983.5,Resolved
+AST-002,2024-09-09,Integrity Variance,31.22,5407.92,Pending Final Sign-Off
+AST-010,2024-09-11,Mechanical Fault,11.39,10329.21,Resolved
+AST-010,2024-09-13,Electrical Trip,4.1,3654.0,Pending Final Sign-Off
+AST-008,2024-09-13,Electrical Trip,15.84,3287.04,Resolved
+AST-013,2024-09-14,Electrical Trip,22.89,21695.93,Pending Final Sign-Off
+AST-008,2024-09-15,Integrity Variance,22.16,3982.25,Pending Final Sign-Off
+AST-012,2024-09-16,Mechanical Fault,14.19,2918.57,Pending Final Sign-Off
+AST-007,2024-09-17,Scheduled Overhaul,31.08,6238.34,Resolved
+AST-020,2024-09-17,Integrity Variance,16.06,3343.33,Resolved
+AST-011,2024-09-18,Electrical Trip,22.04,21456.27,Resolved
+AST-005,2024-09-19,Mechanical Fault,21.25,4018.31,Resolved
+AST-017,2024-09-19,Scheduled Overhaul,32.28,75316.71,Resolved
+AST-017,2024-09-20,Integrity Variance,14.97,33454.4,Pending Final Sign-Off
+AST-007,2024-09-20,Electrical Trip,10.48,2057.99,Resolved
+AST-006,2024-09-26,Control System Alert,11.43,2340.19,Resolved
+AST-010,2024-09-28,Control System Alert,16.09,15454.94,Pending Final Sign-Off
+AST-003,2024-09-29,Electrical Trip,6.38,15601.83,Resolved
+AST-019,2024-09-30,Scheduled Overhaul,27.26,13279.62,Resolved
+AST-004,2024-10-01,Control System Alert,7.75,17467.74,Resolved
+AST-003,2024-10-01,Minor Operational Deviation,1.14,2731.87,Resolved
+AST-020,2024-10-02,Control System Alert,7.01,1418.06,Pending Final Sign-Off
+AST-003,2024-10-03,Integrity Variance,13.83,33218.38,Resolved
+AST-005,2024-10-04,Integrity Variance,4.18,705.14,Resolved
+AST-004,2024-10-05,Electrical Trip,30.77,69873.23,Resolved
+AST-020,2024-10-06,Mechanical Fault,28.77,5121.0,Pending Final Sign-Off
+AST-003,2024-10-07,Mechanical Fault,13.58,30095.63,Resolved
+AST-020,2024-10-10,Scheduled Overhaul,20.97,3553.76,Pending Final Sign-Off
+AST-002,2024-10-11,Minor Operational Deviation,1.06,177.42,Resolved
+AST-007,2024-10-12,Scheduled Overhaul,14.32,2523.23,Pending Final Sign-Off
+AST-001,2024-10-12,Integrity Variance,33.45,82439.86,Resolved
+AST-011,2024-10-13,Mechanical Fault,25.03,24493.61,Resolved
+AST-009,2024-10-16,Electrical Trip,34.61,58870.77,Resolved
+AST-019,2024-10-16,Mechanical Fault,31.8,14578.71,Resolved
+AST-002,2024-10-17,Control System Alert,31.96,5588.54,Pending Final Sign-Off
+AST-018,2024-10-17,Scheduled Overhaul,10.67,5124.42,Pending Final Sign-Off
+AST-018,2024-10-19,Minor Operational Deviation,2.46,1215.83,Pending Final Sign-Off
+AST-003,2024-10-21,Electrical Trip,29.22,60586.53,Pending Final Sign-Off
+AST-002,2024-10-21,Control System Alert,11.24,2137.2,Resolved
+AST-019,2024-10-22,Integrity Variance,12.82,5829.56,Resolved
+AST-004,2024-10-22,Control System Alert,31.11,67102.33,Resolved
+AST-019,2024-10-23,Control System Alert,7.47,3698.73,Resolved
+AST-005,2024-10-23,Electrical Trip,20.65,3940.12,Resolved
+AST-020,2024-10-24,Scheduled Overhaul,28.82,5244.51,Resolved
+AST-010,2024-10-24,Control System Alert,26.4,25152.73,Resolved
+AST-016,2024-10-25,Scheduled Overhaul,10.94,9657.02,Resolved
+AST-003,2024-10-26,Scheduled Overhaul,25.64,57378.32,Resolved
+AST-020,2024-10-26,Mechanical Fault,27.58,4648.9,Pending Final Sign-Off
+AST-011,2024-10-27,Integrity Variance,22.1,19710.67,Resolved
+AST-004,2024-10-28,Mechanical Fault,29.85,67531.68,Resolved
+AST-003,2024-10-28,Mechanical Fault,8.82,19161.82,Resolved
+AST-009,2024-10-29,Integrity Variance,10.5,19543.23,Resolved
+AST-009,2024-10-30,Integrity Variance,6.35,10096.47,Pending Final Sign-Off
+AST-017,2024-11-01,Electrical Trip,31.21,66312.8,Pending Final Sign-Off
+AST-015,2024-11-02,Electrical Trip,4.65,907.17,Resolved
+AST-020,2024-11-02,Mechanical Fault,5.37,1059.21,Resolved
+AST-008,2024-11-03,Minor Operational Deviation,0.88,176.97,Resolved
+AST-013,2024-11-03,Control System Alert,28.19,24071.54,Pending Final Sign-Off
+AST-014,2024-11-06,Minor Operational Deviation,1.63,1623.9,Pending Final Sign-Off
+AST-004,2024-11-10,Control System Alert,6.04,14600.46,Resolved
+AST-007,2024-11-10,Control System Alert,20.58,3586.64,Pending Final Sign-Off
+AST-020,2024-11-11,Control System Alert,12.29,2523.6,Pending Final Sign-Off
+AST-007,2024-11-12,Integrity Variance,9.56,1635.51,Resolved
+AST-009,2024-11-13,Integrity Variance,8.33,15263.21,Pending Final Sign-Off
+AST-012,2024-11-13,Scheduled Overhaul,13.98,2514.41,Resolved
+AST-001,2024-11-14,Electrical Trip,19.94,42615.61,Resolved
+AST-009,2024-11-14,Scheduled Overhaul,12.04,18237.3,Resolved
+AST-018,2024-11-16,Mechanical Fault,35.92,15054.55,Resolved
+AST-010,2024-11-16,Electrical Trip,4.77,4907.66,Pending Final Sign-Off
+AST-008,2024-11-17,Control System Alert,8.8,1475.36,Resolved
+AST-015,2024-11-18,Integrity Variance,9.3,1820.37,Resolved
+AST-003,2024-11-19,Electrical Trip,22.74,48746.9,Pending Final Sign-Off
+AST-009,2024-11-19,Minor Operational Deviation,2.32,3908.51,Resolved
+AST-003,2024-11-20,Scheduled Overhaul,29.87,68474.56,Pending Final Sign-Off
+AST-016,2024-11-21,Integrity Variance,19.5,16583.22,Resolved
+AST-001,2024-11-22,Control System Alert,12.23,27910.28,Pending Final Sign-Off
+AST-010,2024-11-23,Control System Alert,35.26,34333.24,Pending Final Sign-Off
+AST-013,2024-11-25,Integrity Variance,5.15,4941.85,Resolved
+AST-005,2024-11-27,Electrical Trip,22.99,4603.29,Resolved
+AST-006,2024-11-27,Integrity Variance,29.11,5569.73,Resolved
+AST-007,2024-11-30,Scheduled Overhaul,11.0,1833.84,Pending Final Sign-Off
+AST-005,2024-12-01,Scheduled Overhaul,14.77,2910.27,Resolved
+AST-010,2024-12-04,Minor Operational Deviation,3.87,3478.9,Pending Final Sign-Off
+AST-017,2024-12-06,Control System Alert,21.04,49374.8,Resolved
+AST-007,2024-12-06,Scheduled Overhaul,29.05,5357.23,Resolved
+AST-009,2024-12-08,Scheduled Overhaul,4.24,7291.08,Resolved
+AST-015,2024-12-10,Integrity Variance,7.24,1418.36,Pending Final Sign-Off
+AST-002,2024-12-10,Control System Alert,33.93,6403.88,Resolved
+AST-013,2024-12-11,Scheduled Overhaul,13.91,11771.44,Resolved
+AST-001,2024-12-12,Mechanical Fault,29.39,72600.71,Resolved
+AST-007,2024-12-12,Mechanical Fault,7.52,1309.9,Pending Final Sign-Off
+AST-016,2024-12-13,Integrity Variance,4.63,4103.59,Resolved
+AST-003,2024-12-13,Mechanical Fault,19.31,45169.87,Resolved
+AST-003,2024-12-15,Electrical Trip,7.43,17380.59,Resolved
+AST-015,2024-12-16,Minor Operational Deviation,3.56,714.13,Resolved
+AST-010,2024-12-17,Mechanical Fault,29.84,28522.07,Resolved
+AST-004,2024-12-18,Control System Alert,29.78,71289.48,Pending Final Sign-Off
+AST-014,2024-12-18,Control System Alert,8.55,8312.24,Pending Final Sign-Off
+AST-002,2024-12-25,Mechanical Fault,28.11,5648.16,Resolved
+AST-019,2024-12-26,Integrity Variance,33.45,13684.87,Resolved
+AST-013,2024-12-26,Integrity Variance,24.37,21170.79,Pending Final Sign-Off
+AST-018,2024-12-28,Control System Alert,28.81,13476.01,Resolved
+AST-014,2024-12-30,Scheduled Overhaul,15.41,14698.44,Pending Final Sign-Off
+AST-001,2025-01-02,Mechanical Fault,31.73,77850.22,Resolved
+AST-016,2025-01-05,Mechanical Fault,20.52,18216.47,Resolved
+AST-003,2025-01-06,Control System Alert,10.64,25188.12,Pending Final Sign-Off
+AST-014,2025-01-07,Scheduled Overhaul,21.69,21735.92,Resolved
+AST-006,2025-01-07,Mechanical Fault,27.12,5551.74,Resolved
+AST-013,2025-01-13,Scheduled Overhaul,28.85,29647.9,Resolved
+AST-018,2025-01-13,Integrity Variance,31.96,14249.43,Pending Final Sign-Off
+AST-011,2025-01-14,Mechanical Fault,13.16,13466.32,Pending Final Sign-Off
+AST-006,2025-01-14,Control System Alert,11.6,2131.83,Pending Final Sign-Off
+AST-001,2025-01-17,Scheduled Overhaul,26.96,57050.39,Pending Final Sign-Off
+AST-005,2025-01-18,Electrical Trip,17.76,3040.67,Pending Final Sign-Off
+AST-002,2025-01-18,Control System Alert,31.58,5661.33,Pending Final Sign-Off
+AST-011,2025-01-19,Control System Alert,5.37,5540.48,Resolved
+AST-012,2025-01-19,Scheduled Overhaul,24.01,4753.81,Resolved
+AST-012,2025-01-20,Control System Alert,23.08,4233.06,Resolved
+AST-012,2025-01-22,Scheduled Overhaul,12.92,2617.64,Resolved
+AST-020,2025-01-22,Control System Alert,33.94,6078.47,Resolved
+AST-008,2025-01-23,Control System Alert,16.52,3351.62,Resolved
+AST-008,2025-01-24,Scheduled Overhaul,9.72,1620.67,Resolved
+AST-018,2025-01-24,Electrical Trip,20.76,9297.79,Resolved
+AST-009,2025-01-26,Integrity Variance,8.82,15708.57,Resolved
+AST-015,2025-01-26,Electrical Trip,4.34,765.4,Resolved
+AST-004,2025-01-28,Electrical Trip,17.65,44009.36,Resolved
+AST-012,2025-01-28,Electrical Trip,31.97,5859.36,Pending Final Sign-Off
+AST-005,2025-01-30,Integrity Variance,13.88,2819.9,Resolved
+AST-014,2025-01-31,Control System Alert,27.51,23169.95,Resolved
+AST-017,2025-02-03,Scheduled Overhaul,34.31,81564.08,Resolved
+AST-008,2025-02-06,Mechanical Fault,6.86,1255.44,Resolved
+AST-005,2025-02-06,Mechanical Fault,5.51,1093.62,Pending Final Sign-Off
+AST-006,2025-02-07,Electrical Trip,20.45,3980.43,Pending Final Sign-Off
+AST-004,2025-02-07,Control System Alert,29.78,69816.39,Resolved
+AST-006,2025-02-09,Electrical Trip,15.14,2568.93,Resolved
+AST-019,2025-02-10,Control System Alert,11.42,5625.56,Resolved
+AST-007,2025-02-11,Integrity Variance,21.2,4044.75,Resolved
+AST-008,2025-02-11,Integrity Variance,11.65,2183.99,Resolved
+AST-004,2025-02-12,Integrity Variance,35.49,85021.34,Resolved
+AST-005,2025-02-12,Mechanical Fault,26.94,4990.59,Resolved
+AST-020,2025-02-15,Mechanical Fault,34.48,6360.27,Resolved
+AST-018,2025-02-16,Electrical Trip,21.81,10318.86,Resolved
+AST-017,2025-02-17,Minor Operational Deviation,3.49,7601.38,Resolved
+AST-009,2025-02-17,Electrical Trip,6.95,11546.59,Resolved
+AST-016,2025-02-18,Minor Operational Deviation,3.79,3578.57,Resolved
+AST-008,2025-02-19,Control System Alert,27.56,5272.82,Pending Final Sign-Off
+AST-003,2025-02-20,Control System Alert,30.89,73363.03,Resolved
+AST-005,2025-02-22,Mechanical Fault,6.88,1227.32,Pending Final Sign-Off
+AST-008,2025-02-23,Mechanical Fault,4.69,790.49,Resolved
+AST-005,2025-02-23,Control System Alert,9.41,1607.76,Resolved
+AST-016,2025-02-24,Electrical Trip,10.6,9975.5,Pending Final Sign-Off
+AST-017,2025-02-25,Electrical Trip,30.75,70097.98,Pending Final Sign-Off
+AST-004,2025-02-25,Integrity Variance,4.04,8112.38,Resolved
+AST-017,2025-02-27,Scheduled Overhaul,32.76,77975.35,Pending Final Sign-Off
+AST-013,2025-02-27,Mechanical Fault,22.7,19649.01,Pending Final Sign-Off
+AST-003,2025-02-28,Mechanical Fault,11.21,22629.61,Resolved
+AST-020,2025-03-01,Control System Alert,35.91,6033.55,Resolved
+AST-016,2025-03-01,Integrity Variance,14.25,12714.46,Resolved
+AST-015,2025-03-02,Electrical Trip,17.87,3077.62,Pending Final Sign-Off
+AST-017,2025-03-02,Integrity Variance,10.86,26739.0,Resolved
+AST-018,2025-03-05,Scheduled Overhaul,33.66,13905.14,Pending Final Sign-Off
+AST-020,2025-03-06,Integrity Variance,20.01,3682.81,Pending Final Sign-Off
+AST-005,2025-03-06,Integrity Variance,8.34,1445.06,Pending Final Sign-Off
+AST-006,2025-03-07,Minor Operational Deviation,3.17,577.98,Resolved
+AST-012,2025-03-07,Electrical Trip,12.68,2635.39,Resolved
+AST-003,2025-03-09,Minor Operational Deviation,1.46,3491.96,Resolved
+AST-018,2025-03-09,Control System Alert,4.47,2060.45,Pending Final Sign-Off
+AST-003,2025-03-10,Mechanical Fault,17.26,37318.96,Resolved
+AST-002,2025-03-10,Control System Alert,29.74,5835.24,Pending Final Sign-Off
+AST-011,2025-03-11,Electrical Trip,32.79,27367.24,Pending Final Sign-Off
+AST-008,2025-03-12,Mechanical Fault,14.9,2588.35,Resolved
+AST-011,2025-03-14,Minor Operational Deviation,1.65,1490.45,Pending Final Sign-Off
+AST-005,2025-03-15,Electrical Trip,31.47,5565.14,Pending Final Sign-Off
+AST-019,2025-03-19,Minor Operational Deviation,2.25,986.91,Resolved
+AST-003,2025-03-20,Scheduled Overhaul,14.88,29780.15,Pending Final Sign-Off
+AST-011,2025-03-22,Control System Alert,7.57,6856.88,Resolved
+AST-001,2025-03-22,Mechanical Fault,4.96,10638.53,Resolved
+AST-007,2025-03-23,Mechanical Fault,27.0,4514.17,Resolved
+AST-002,2025-03-23,Minor Operational Deviation,2.66,521.09,Resolved
+AST-002,2025-03-24,Mechanical Fault,22.14,4534.18,Resolved
+AST-014,2025-03-24,Control System Alert,27.19,25877.34,Pending Final Sign-Off
+AST-005,2025-03-25,Mechanical Fault,16.97,2922.58,Resolved
+AST-013,2025-03-26,Control System Alert,29.74,25311.64,Resolved
+AST-014,2025-03-27,Control System Alert,23.56,23893.76,Resolved
+AST-008,2025-03-27,Minor Operational Deviation,3.17,543.18,Pending Final Sign-Off
+AST-018,2025-03-29,Mechanical Fault,35.94,14645.41,Resolved
+AST-016,2025-03-30,Minor Operational Deviation,3.94,3336.06,Resolved
+AST-008,2025-03-30,Electrical Trip,16.81,2840.26,Resolved
+AST-017,2025-03-31,Control System Alert,11.4,23125.44,Resolved
+AST-012,2025-04-01,Mechanical Fault,5.37,1104.8,Resolved
+AST-020,2025-04-01,Scheduled Overhaul,24.34,4395.3,Resolved
+AST-003,2025-04-02,Control System Alert,19.15,39348.38,Resolved
+AST-002,2025-04-02,Scheduled Overhaul,19.72,3520.07,Resolved
+AST-017,2025-04-04,Electrical Trip,12.16,27981.72,Resolved
+AST-006,2025-04-05,Integrity Variance,28.0,4920.68,Resolved
+AST-019,2025-04-05,Electrical Trip,32.98,13890.23,Pending Final Sign-Off
+AST-015,2025-04-06,Electrical Trip,10.87,1945.19,Resolved
+AST-019,2025-04-06,Scheduled Overhaul,20.54,8734.27,Pending Final Sign-Off
+AST-006,2025-04-07,Mechanical Fault,29.55,5338.31,Resolved
+AST-010,2025-04-08,Control System Alert,9.95,8372.52,Resolved
+AST-016,2025-04-09,Integrity Variance,28.21,28857.63,Resolved
+AST-019,2025-04-10,Mechanical Fault,32.88,15233.89,Pending Final Sign-Off
+AST-001,2025-04-12,Integrity Variance,35.98,75763.65,Pending Final Sign-Off
+AST-015,2025-04-13,Mechanical Fault,7.73,1372.29,Resolved
+AST-007,2025-04-13,Integrity Variance,14.68,2702.91,Resolved
+AST-014,2025-04-14,Scheduled Overhaul,13.32,12868.51,Resolved
+AST-008,2025-04-16,Control System Alert,16.46,2980.13,Resolved
+AST-003,2025-04-16,Mechanical Fault,18.46,38419.98,Pending Final Sign-Off
+AST-006,2025-04-17,Electrical Trip,16.22,3198.19,Resolved
+AST-004,2025-04-18,Electrical Trip,16.17,33396.49,Resolved
+AST-013,2025-04-19,Electrical Trip,32.4,30081.43,Resolved
+AST-005,2025-04-19,Control System Alert,22.61,4189.33,Pending Final Sign-Off
+AST-012,2025-04-22,Control System Alert,9.21,1810.36,Resolved
+AST-017,2025-04-23,Scheduled Overhaul,15.1,31969.15,Resolved
+AST-004,2025-04-25,Electrical Trip,29.29,64443.22,Pending Final Sign-Off
+AST-009,2025-04-26,Electrical Trip,6.99,11972.41,Pending Final Sign-Off
+AST-016,2025-04-26,Control System Alert,20.94,20264.47,Pending Final Sign-Off
+AST-014,2025-04-27,Minor Operational Deviation,3.06,2986.33,Resolved
+AST-008,2025-04-28,Scheduled Overhaul,9.49,1899.46,Resolved
+AST-016,2025-04-28,Mechanical Fault,33.67,29507.09,Resolved
+AST-006,2025-04-29,Mechanical Fault,8.8,1701.04,Resolved
+AST-001,2025-04-29,Integrity Variance,31.52,65038.4,Resolved
+AST-010,2025-05-02,Electrical Trip,30.56,30763.36,Resolved
+AST-011,2025-05-02,Mechanical Fault,12.33,11538.64,Pending Final Sign-Off
+AST-015,2025-05-04,Mechanical Fault,12.17,2169.36,Resolved
+AST-016,2025-05-05,Electrical Trip,31.54,28599.74,Pending Final Sign-Off
+AST-017,2025-05-05,Electrical Trip,11.83,29018.47,Resolved
+AST-015,2025-05-06,Minor Operational Deviation,0.64,133.32,Pending Final Sign-Off
+AST-019,2025-05-06,Scheduled Overhaul,31.22,14370.09,Pending Final Sign-Off
+AST-019,2025-05-09,Electrical Trip,28.3,11795.77,Resolved
+AST-005,2025-05-09,Scheduled Overhaul,17.8,3430.28,Pending Final Sign-Off
+AST-015,2025-05-10,Mechanical Fault,9.54,1784.36,Resolved
+AST-013,2025-05-10,Electrical Trip,35.52,30013.85,Resolved
+AST-015,2025-05-12,Minor Operational Deviation,1.06,192.57,Resolved
+AST-009,2025-05-12,Electrical Trip,9.62,14763.75,Pending Final Sign-Off
+AST-004,2025-05-14,Electrical Trip,9.68,20992.11,Resolved
+AST-016,2025-05-14,Integrity Variance,32.05,31332.31,Pending Final Sign-Off
+AST-012,2025-05-15,Electrical Trip,4.81,999.26,Resolved
+AST-001,2025-05-16,Mechanical Fault,18.26,40310.37,Resolved
+AST-014,2025-05-16,Integrity Variance,28.81,28330.5,Resolved
+AST-007,2025-05-17,Scheduled Overhaul,32.56,5495.66,Pending Final Sign-Off
+AST-016,2025-05-19,Integrity Variance,18.57,15716.58,Resolved
+AST-019,2025-05-19,Mechanical Fault,16.28,6742.55,Resolved
+AST-011,2025-05-20,Control System Alert,22.91,19872.59,Pending Final Sign-Off
+AST-001,2025-05-20,Minor Operational Deviation,0.98,2137.8,Pending Final Sign-Off
+AST-007,2025-05-21,Minor Operational Deviation,3.22,593.86,Resolved
+AST-008,2025-05-22,Scheduled Overhaul,32.46,6309.17,Resolved
+AST-005,2025-05-23,Integrity Variance,33.15,5954.84,Resolved
+AST-009,2025-05-23,Control System Alert,17.03,27079.26,Pending Final Sign-Off
+AST-016,2025-05-24,Minor Operational Deviation,2.41,2061.68,Resolved
+AST-002,2025-05-24,Scheduled Overhaul,19.32,3242.41,Pending Final Sign-Off
+AST-009,2025-05-25,Scheduled Overhaul,30.92,54313.4,Resolved
+AST-019,2025-05-25,Mechanical Fault,7.72,3762.23,Pending Final Sign-Off
+AST-019,2025-05-26,Scheduled Overhaul,18.43,9193.57,Pending Final Sign-Off
+AST-005,2025-05-26,Mechanical Fault,12.44,2377.46,Resolved
+AST-001,2025-05-27,Scheduled Overhaul,21.63,49091.38,Resolved
+AST-020,2025-05-27,Integrity Variance,17.69,2995.21,Resolved
+AST-013,2025-05-31,Electrical Trip,33.66,33424.04,Pending Final Sign-Off
+AST-020,2025-05-31,Electrical Trip,23.49,4863.35,Resolved
+AST-016,2025-06-01,Electrical Trip,32.14,29537.53,Resolved
+AST-018,2025-06-01,Electrical Trip,34.69,15984.06,Pending Final Sign-Off
+AST-017,2025-06-03,Control System Alert,28.64,59956.51,Resolved
+AST-015,2025-06-03,Scheduled Overhaul,35.95,6028.84,Pending Final Sign-Off
+AST-013,2025-06-05,Mechanical Fault,10.04,9401.68,Resolved
+AST-008,2025-06-05,Electrical Trip,20.35,3817.99,Resolved
+AST-019,2025-06-06,Integrity Variance,14.82,6930.53,Resolved
+AST-013,2025-06-07,Minor Operational Deviation,3.58,3482.41,Resolved
+AST-002,2025-06-09,Scheduled Overhaul,19.08,3272.81,Resolved
+AST-007,2025-06-10,Scheduled Overhaul,35.03,6255.54,Resolved
+AST-004,2025-06-10,Integrity Variance,26.89,59670.41,Pending Final Sign-Off
+AST-001,2025-06-11,Electrical Trip,24.84,60348.54,Resolved
+AST-018,2025-06-11,Integrity Variance,11.88,4963.86,Resolved
+AST-013,2025-06-12,Mechanical Fault,5.9,5076.85,Resolved
+AST-008,2025-06-13,Scheduled Overhaul,11.06,2157.49,Resolved
+AST-007,2025-06-14,Integrity Variance,30.72,6142.06,Resolved
+AST-005,2025-06-14,Control System Alert,9.18,1616.95,Resolved
+AST-008,2025-06-16,Minor Operational Deviation,3.68,665.06,Resolved
+AST-002,2025-06-16,Integrity Variance,20.01,4050.16,Resolved
+AST-012,2025-06-18,Control System Alert,17.44,3629.38,Resolved
+AST-019,2025-06-18,Minor Operational Deviation,3.13,1562.76,Resolved
+AST-013,2025-06-19,Control System Alert,20.37,19182.24,Pending Final Sign-Off
+AST-008,2025-06-19,Control System Alert,9.88,1764.91,Resolved
+AST-003,2025-06-21,Integrity Variance,31.55,77908.3,Resolved
+AST-009,2025-06-22,Mechanical Fault,16.98,28228.73,Pending Final Sign-Off
+AST-017,2025-06-22,Control System Alert,34.51,83242.74,Pending Final Sign-Off
+AST-017,2025-06-26,Electrical Trip,27.04,57245.07,Resolved
+AST-008,2025-06-26,Electrical Trip,4.92,1017.25,Resolved
+AST-003,2025-06-29,Integrity Variance,12.25,29629.39,Resolved
+AST-005,2025-06-30,Control System Alert,8.8,1540.23,Resolved
+AST-011,2025-06-30,Integrity Variance,6.88,6561.9,Resolved
+AST-011,2025-07-01,Control System Alert,33.58,29430.57,Resolved
+AST-020,2025-07-03,Mechanical Fault,9.82,1658.09,Resolved
+AST-002,2025-07-04,Scheduled Overhaul,30.69,6237.55,Resolved
+AST-019,2025-07-05,Electrical Trip,18.18,7835.64,Resolved
+AST-004,2025-07-05,Integrity Variance,31.28,73085.85,Pending Final Sign-Off
+AST-010,2025-07-06,Electrical Trip,14.69,15160.4,Pending Final Sign-Off
+AST-018,2025-07-07,Minor Operational Deviation,1.88,788.5,Resolved
+AST-007,2025-07-08,Mechanical Fault,32.86,5949.88,Pending Final Sign-Off
+AST-018,2025-07-08,Control System Alert,23.98,10532.01,Pending Final Sign-Off
+AST-006,2025-07-09,Minor Operational Deviation,3.29,597.19,Resolved
+AST-018,2025-07-09,Scheduled Overhaul,20.05,9657.67,Resolved
+AST-007,2025-07-10,Control System Alert,33.05,6881.02,Pending Final Sign-Off
+AST-016,2025-07-11,Electrical Trip,16.96,17270.36,Resolved
+AST-002,2025-07-11,Mechanical Fault,20.23,3712.19,Pending Final Sign-Off
+AST-006,2025-07-12,Minor Operational Deviation,2.57,526.97,Resolved
+AST-012,2025-07-12,Integrity Variance,20.26,3999.91,Pending Final Sign-Off
+AST-003,2025-07-13,Integrity Variance,23.73,50727.98,Resolved
+AST-008,2025-07-13,Integrity Variance,35.94,7481.76,Pending Final Sign-Off
+AST-006,2025-07-17,Mechanical Fault,21.23,3611.25,Resolved
+AST-019,2025-07-20,Mechanical Fault,20.79,8412.47,Pending Final Sign-Off
+AST-008,2025-07-21,Mechanical Fault,22.84,4472.18,Pending Final Sign-Off
+AST-011,2025-07-21,Integrity Variance,22.66,19506.65,Resolved
+AST-005,2025-07-23,Scheduled Overhaul,9.54,1953.52,Resolved
+AST-006,2025-07-23,Scheduled Overhaul,27.39,5429.55,Pending Final Sign-Off
+AST-013,2025-07-26,Control System Alert,32.54,33029.19,Resolved
+AST-016,2025-07-26,Scheduled Overhaul,5.73,5505.16,Resolved
+AST-005,2025-07-27,Scheduled Overhaul,27.64,4934.53,Pending Final Sign-Off
+AST-020,2025-07-27,Electrical Trip,13.56,2340.7,Resolved
+AST-010,2025-07-28,Scheduled Overhaul,33.49,32292.89,Resolved
+AST-019,2025-07-28,Electrical Trip,9.52,4742.99,Resolved
+AST-018,2025-07-29,Minor Operational Deviation,1.33,589.21,Resolved
+AST-004,2025-07-30,Mechanical Fault,26.14,53299.38,Resolved
+AST-014,2025-07-31,Minor Operational Deviation,1.94,1985.96,Pending Final Sign-Off
+AST-016,2025-07-31,Mechanical Fault,25.84,24117.43,Resolved
+AST-012,2025-08-02,Electrical Trip,7.38,1295.98,Pending Final Sign-Off
+AST-008,2025-08-04,Scheduled Overhaul,17.87,3359.99,Resolved
+AST-001,2025-08-04,Scheduled Overhaul,22.49,52576.36,Pending Final Sign-Off
+AST-012,2025-08-07,Scheduled Overhaul,18.77,3211.0,Resolved
+AST-003,2025-08-07,Electrical Trip,18.93,40681.11,Resolved
+AST-004,2025-08-10,Control System Alert,12.88,30408.39,Resolved
+AST-005,2025-08-10,Control System Alert,21.42,4069.79,Pending Final Sign-Off
+AST-010,2025-08-11,Control System Alert,21.7,20001.0,Resolved
+AST-006,2025-08-12,Electrical Trip,11.49,2232.76,Resolved
+AST-014,2025-08-13,Integrity Variance,25.63,24334.75,Resolved
+AST-010,2025-08-14,Mechanical Fault,32.5,30857.59,Pending Final Sign-Off
+AST-011,2025-08-15,Control System Alert,16.1,15081.42,Resolved
+AST-009,2025-08-16,Mechanical Fault,18.48,34452.61,Resolved
+AST-016,2025-08-16,Mechanical Fault,28.63,25201.8,Pending Final Sign-Off
+AST-004,2025-08-18,Electrical Trip,10.23,24787.11,Pending Final Sign-Off
+AST-012,2025-08-21,Integrity Variance,16.79,2965.13,Resolved
+AST-018,2025-08-21,Electrical Trip,21.93,9002.85,Resolved
+AST-002,2025-08-22,Mechanical Fault,32.24,6609.03,Resolved
+AST-016,2025-08-22,Integrity Variance,26.53,22628.21,Resolved
+AST-013,2025-08-23,Minor Operational Deviation,3.13,2733.54,Pending Final Sign-Off
+AST-008,2025-08-23,Minor Operational Deviation,2.2,444.6,Resolved
+AST-004,2025-08-25,Scheduled Overhaul,11.0,26885.15,Resolved
+AST-017,2025-08-27,Electrical Trip,20.98,42389.58,Resolved
+AST-014,2025-08-27,Electrical Trip,35.42,34441.16,Resolved
+AST-003,2025-08-29,Scheduled Overhaul,32.11,73359.81,Resolved
+AST-011,2025-08-29,Control System Alert,27.24,26765.15,Pending Final Sign-Off
+AST-001,2025-08-30,Electrical Trip,19.24,43459.6,Resolved
+AST-020,2025-08-31,Mechanical Fault,30.24,5131.17,Pending Final Sign-Off
+AST-012,2025-09-02,Mechanical Fault,17.52,2931.57,Resolved
+AST-009,2025-09-04,Scheduled Overhaul,15.47,27309.59,Pending Final Sign-Off
+AST-019,2025-09-04,Scheduled Overhaul,29.13,12175.31,Resolved
+AST-015,2025-09-05,Integrity Variance,33.21,5712.98,Resolved
+AST-007,2025-09-05,Mechanical Fault,29.45,5999.6,Resolved
+AST-017,2025-09-06,Mechanical Fault,18.39,43297.1,Resolved
+AST-004,2025-09-06,Electrical Trip,12.02,26048.63,Pending Final Sign-Off
+AST-016,2025-09-07,Mechanical Fault,14.41,12799.7,Resolved
+AST-011,2025-09-07,Scheduled Overhaul,23.66,23300.82,Resolved
+AST-011,2025-09-08,Scheduled Overhaul,16.81,15277.87,Resolved
+AST-008,2025-09-09,Integrity Variance,7.62,1401.28,Resolved
+AST-016,2025-09-10,Electrical Trip,32.9,28227.94,Resolved
+AST-017,2025-09-12,Electrical Trip,12.78,27846.61,Pending Final Sign-Off
+AST-005,2025-09-13,Scheduled Overhaul,32.02,5476.3,Pending Final Sign-Off
+AST-010,2025-09-13,Mechanical Fault,14.49,13030.74,Resolved
+AST-002,2025-09-16,Integrity Variance,5.13,1025.16,Pending Final Sign-Off
+AST-002,2025-09-17,Scheduled Overhaul,9.75,1971.67,Resolved
+AST-019,2025-09-17,Integrity Variance,27.92,11639.38,Resolved
+AST-014,2025-09-19,Integrity Variance,33.58,29934.27,Pending Final Sign-Off
+AST-017,2025-09-21,Electrical Trip,10.26,20688.26,Pending Final Sign-Off
+AST-019,2025-09-21,Scheduled Overhaul,32.28,16084.0,Resolved
+AST-019,2025-09-23,Control System Alert,23.92,9895.66,Pending Final Sign-Off
+AST-006,2025-09-28,Minor Operational Deviation,2.51,488.7,Resolved
+AST-009,2025-09-29,Control System Alert,8.08,12152.34,Pending Final Sign-Off
+AST-017,2025-09-30,Scheduled Overhaul,26.92,64685.97,Resolved
+AST-005,2025-09-30,Mechanical Fault,31.39,5413.01,Pending Final Sign-Off
+AST-015,2025-10-02,Minor Operational Deviation,1.03,192.31,Resolved
+AST-002,2025-10-02,Electrical Trip,29.62,5195.0,Pending Final Sign-Off
+AST-008,2025-10-03,Integrity Variance,15.26,3084.03,Resolved
+AST-006,2025-10-03,Control System Alert,31.12,5761.51,Resolved
+AST-016,2025-10-06,Scheduled Overhaul,18.24,16359.82,Resolved
+AST-006,2025-10-06,Scheduled Overhaul,24.05,4417.42,Resolved
+AST-008,2025-10-07,Control System Alert,17.37,3467.2,Pending Final Sign-Off
+AST-006,2025-10-07,Scheduled Overhaul,14.57,3013.45,Resolved
+AST-015,2025-10-08,Scheduled Overhaul,4.25,833.45,Resolved
+AST-017,2025-10-09,Scheduled Overhaul,29.47,70765.73,Pending Final Sign-Off
+AST-004,2025-10-09,Mechanical Fault,23.91,58695.78,Resolved
+AST-004,2025-10-10,Scheduled Overhaul,27.4,62778.89,Resolved
+AST-003,2025-10-12,Electrical Trip,18.48,42160.55,Pending Final Sign-Off
+AST-018,2025-10-14,Minor Operational Deviation,3.94,1791.92,Pending Final Sign-Off
+AST-020,2025-10-14,Electrical Trip,32.78,5602.31,Pending Final Sign-Off
+AST-011,2025-10-15,Mechanical Fault,31.02,27477.35,Resolved
+AST-006,2025-10-15,Minor Operational Deviation,3.54,617.06,Resolved
+AST-003,2025-10-16,Minor Operational Deviation,1.69,3499.24,Resolved
+AST-003,2025-10-19,Electrical Trip,30.37,70119.69,Resolved
+AST-008,2025-10-19,Mechanical Fault,29.91,5967.39,Resolved
+AST-018,2025-10-20,Scheduled Overhaul,11.1,5402.3,Resolved
+AST-010,2025-10-21,Integrity Variance,20.6,18876.47,Pending Final Sign-Off
+AST-019,2025-10-23,Scheduled Overhaul,19.97,8382.04,Pending Final Sign-Off
+AST-014,2025-10-23,Scheduled Overhaul,32.17,29961.48,Resolved
+AST-008,2025-10-24,Electrical Trip,22.07,4173.2,Resolved
+AST-014,2025-10-24,Scheduled Overhaul,10.93,9739.88,Pending Final Sign-Off
+AST-002,2025-10-25,Minor Operational Deviation,2.79,532.15,Pending Final Sign-Off
+AST-001,2025-10-25,Control System Alert,10.28,24709.06,Resolved
+AST-010,2025-10-27,Scheduled Overhaul,32.01,28796.91,Resolved
+AST-002,2025-10-29,Scheduled Overhaul,24.26,4115.93,Resolved
+AST-009,2025-10-29,Minor Operational Deviation,2.38,4054.56,Resolved
+AST-004,2025-10-31,Mechanical Fault,12.21,30294.14,Resolved
+AST-005,2025-10-31,Control System Alert,29.03,6042.6,Pending Final Sign-Off
+AST-003,2025-11-02,Integrity Variance,33.59,79282.25,Resolved
+AST-009,2025-11-04,Electrical Trip,20.17,34859.23,Resolved
+AST-010,2025-11-04,Control System Alert,5.94,5857.49,Resolved
+AST-013,2025-11-05,Electrical Trip,6.07,5597.56,Resolved
+AST-001,2025-11-05,Minor Operational Deviation,1.3,2888.67,Resolved
+AST-012,2025-11-06,Integrity Variance,31.01,5936.91,Resolved
+AST-018,2025-11-06,Integrity Variance,29.46,14148.36,Resolved
+AST-002,2025-11-08,Control System Alert,19.74,4045.91,Resolved
+AST-012,2025-11-09,Mechanical Fault,27.78,5654.41,Resolved
+AST-020,2025-11-10,Mechanical Fault,19.3,3496.33,Pending Final Sign-Off
+AST-006,2025-11-12,Electrical Trip,14.5,3009.43,Pending Final Sign-Off
+AST-016,2025-11-12,Control System Alert,18.66,18053.65,Resolved
+AST-004,2025-11-13,Scheduled Overhaul,35.23,84728.46,Pending Final Sign-Off
+AST-014,2025-11-13,Electrical Trip,16.72,16046.02,Pending Final Sign-Off
+AST-006,2025-11-15,Electrical Trip,17.5,3570.72,Resolved
+AST-019,2025-11-15,Scheduled Overhaul,31.75,14077.07,Pending Final Sign-Off
+AST-009,2025-11-16,Control System Alert,14.66,26961.95,Resolved
+AST-009,2025-11-17,Integrity Variance,22.0,40943.68,Pending Final Sign-Off
+AST-013,2025-11-17,Mechanical Fault,16.81,15233.54,Resolved
+AST-009,2025-11-19,Control System Alert,18.1,29276.19,Resolved
+AST-016,2025-11-22,Electrical Trip,10.71,9282.72,Resolved
+AST-014,2025-11-22,Integrity Variance,18.84,17681.1,Pending Final Sign-Off
+AST-008,2025-11-23,Control System Alert,9.34,1786.42,Resolved
+AST-001,2025-11-26,Minor Operational Deviation,1.07,2202.62,Pending Final Sign-Off
+AST-011,2025-11-28,Control System Alert,19.03,16474.2,Pending Final Sign-Off
+AST-016,2025-11-29,Mechanical Fault,12.18,11143.32,Resolved
+AST-015,2025-12-01,Minor Operational Deviation,3.43,589.7,Resolved
+AST-006,2025-12-02,Integrity Variance,29.51,5977.02,Resolved
+AST-014,2025-12-02,Scheduled Overhaul,26.19,26368.33,Resolved
+AST-020,2025-12-03,Integrity Variance,29.27,5719.48,Resolved
+AST-004,2025-12-03,Integrity Variance,11.54,23655.06,Resolved
+AST-011,2025-12-04,Control System Alert,19.37,19660.01,Resolved
+AST-015,2025-12-06,Mechanical Fault,26.11,4358.12,Pending Final Sign-Off
+AST-012,2025-12-09,Electrical Trip,29.8,6192.29,Resolved
+AST-009,2025-12-11,Control System Alert,20.27,35433.41,Resolved
+AST-011,2025-12-11,Scheduled Overhaul,26.64,25370.93,Pending Final Sign-Off
+AST-019,2025-12-13,Control System Alert,30.17,14144.4,Resolved
+AST-017,2025-12-14,Mechanical Fault,22.87,49634.49,Resolved
+AST-004,2025-12-15,Integrity Variance,28.72,59060.64,Pending Final Sign-Off
+AST-008,2025-12-16,Control System Alert,4.31,870.28,Resolved
+AST-001,2025-12-17,Electrical Trip,20.93,51807.97,Resolved
+AST-013,2025-12-17,Scheduled Overhaul,25.75,23044.31,Pending Final Sign-Off
+AST-004,2025-12-18,Integrity Variance,13.63,32308.41,Pending Final Sign-Off
+AST-018,2025-12-18,Minor Operational Deviation,2.1,1036.02,Resolved
+AST-019,2025-12-20,Integrity Variance,31.52,12985.69,Resolved
+AST-011,2025-12-20,Minor Operational Deviation,3.56,3661.29,Resolved
+AST-011,2025-12-21,Integrity Variance,16.87,15203.7,Pending Final Sign-Off
+AST-012,2025-12-21,Electrical Trip,23.36,4429.26,Resolved
+AST-012,2025-12-22,Mechanical Fault,10.03,1996.22,Pending Final Sign-Off
+AST-013,2025-12-23,Integrity Variance,19.82,18760.74,Resolved
+AST-012,2025-12-23,Control System Alert,5.28,989.14,Pending Final Sign-Off
+AST-004,2025-12-24,Scheduled Overhaul,30.87,62232.14,Resolved
+AST-014,2025-12-28,Integrity Variance,35.44,35674.48,Pending Final Sign-Off
+AST-007,2025-12-28,Scheduled Overhaul,33.65,6743.72,Resolved
+AST-017,2025-12-29,Scheduled Overhaul,20.2,48441.48,Pending Final Sign-Off

@@ -1,0 +1,49 @@
+table DimCostCenters
+	lineageTag: fb1f4d35-bfe9-443c-9534-ac9df688f6a2
+
+	column CostCenterID
+		dataType: string
+		lineageTag: 7c82de5c-cefc-448f-a9be-490e7024fda7
+		summarizeBy: none
+		sourceColumn: CostCenterID
+
+		annotation SummarizationSetBy = Automatic
+
+	column DepartmentName
+		dataType: string
+		lineageTag: 56323eb9-a373-49e2-9777-1be256910513
+		summarizeBy: none
+		sourceColumn: DepartmentName
+
+		annotation SummarizationSetBy = Automatic
+
+	column Division
+		dataType: string
+		lineageTag: 217b2aed-0cdf-496d-837f-e4c88f07644c
+		summarizeBy: none
+		sourceColumn: Division
+
+		annotation SummarizationSetBy = Automatic
+
+	column PracticeLead
+		dataType: string
+		lineageTag: e5fc93d6-5c00-4593-94bb-498f2ee4a63c
+		summarizeBy: none
+		sourceColumn: PracticeLead
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimCostCenters = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\wenla\OneDrive\PortfolioProjects\03-finance-analytics\raw_data\dim_cost_centers.csv"), [Delimiter = ",", Columns = 4, QuoteStyle = QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"CostCenterID", type text}, {"DepartmentName", type text}, {"Division", type text}, {"PracticeLead", type text}})
+				in
+				  #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

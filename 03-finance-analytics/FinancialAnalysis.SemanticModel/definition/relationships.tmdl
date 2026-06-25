@@ -1,0 +1,13 @@
+relationship AutoDetected_4a79570c-0fc3-442e-b0c4-ddf2b89a5df1
+	fromColumn: FactBudgetExecution.CostCenterID
+	toColumn: DimCostCenters.CostCenterID
+
+relationship 3b9f8eb9-a579-4e7d-92cf-5b22f577dbeb
+	joinOnDateBehavior: datePartOnly
+	fromColumn: DimDate.Date
+	toColumn: LocalDateTable_c532a070-13ec-4e86-a47c-8684e588d64e.Date
+
+relationship 138ffe87-7db9-4bdd-8fe4-32ee15ae8a0c
+	fromColumn: FactBudgetExecution.MonthStarting
+	toColumn: DimDate.Date
+

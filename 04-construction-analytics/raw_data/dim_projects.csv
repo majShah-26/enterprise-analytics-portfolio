@@ -1,0 +1,11 @@
+ProjectID,ProjectName,ProgramTrack,RiskClassification
+PRJ-001,Infrastructure Phase A,Civic Infrastructure,Medium
+PRJ-002,Civic Center Structural,Industrial Utilities,High
+PRJ-003,Logistics Grid Expansion,Civic Infrastructure,Medium
+PRJ-004,Utility Ring Main,Industrial Utilities,Low
+PRJ-005,Subsurface Earthworks,Civic Infrastructure,High
+PRJ-006,Marine Intake Pipeline,Industrial Utilities,Medium
+PRJ-007,Modular Housing Cluster,Civic Infrastructure,High
+PRJ-008,Desalination Interconnect,Industrial Utilities,Medium
+PRJ-009,Primary Arterial Roads,Civic Infrastructure,Medium
+PRJ-010,HVAC Substation Build,Industrial Utilities,Low
